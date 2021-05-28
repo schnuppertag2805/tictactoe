@@ -1,0 +1,63 @@
+body {
+font-family: 'Cabin', sans-serif;
+}
+
+.centered {
+    text-align:center;
+}
+
+#icon {
+    margin-bottom: 45px;
+}
+
+.container {
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.row {
+    height: 100px;
+}
+
+.col {
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.col:hover {
+  background-color: lightgrey !important;  
+}
+
+.border-b {
+    border-bottom: 10px solid black;
+}
+
+.border-r {
+    border-right: 10px solid black;;
+}
+
+.card {
+    background-color:magenta;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#reset {
+   font-size: 30px; 
+   position: fixed;
+   right: 10px;
+   bottom: 10px;
+}

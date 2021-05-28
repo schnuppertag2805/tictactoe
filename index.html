@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>tictactoe</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="centered" id="icon">
+            TicTacToe
+        </div>
+
+        <div class="row border-b">
+            <div onclick="handleClick('0');" id="0" class="col border-r"></div>
+            <div onclick="handleClick('1');" id="1" class="col border-r"></div>
+            <div onclick="handleClick('2');" id="2" class="col"></div>
+        </div>
+
+        <div class="row border-b">
+            <div onclick="handleClick('3');" id="3" class="col border-r"></div>
+            <div onclick="handleClick('4');" id="4" class="col border-r"></div>
+            <div onclick="handleClick('5');" id="5" class="col"></div>
+        </div>
+
+        <div class="row">
+            <div onclick="handleClick('6');" id="6" class="col border-r"></div>
+            <div onclick="handleClick('7');" id="7" class="col border-r"></div>
+            <div onclick="handleClick('8');" id="8" class="col"></div>
+        </div>
+
+        <br>
+
+        <div class="centered card" id="card">
+            <div id="status">
+                Bereit zu spielen?
+            </div>
+            <ion-icon onclick="reset();" id="reset" name="refresh-circle-outline"></ion-icon>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
